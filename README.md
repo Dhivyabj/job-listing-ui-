@@ -47,7 +47,7 @@ src/
 
 🌐 Deployment
 This project can be deployed easily on Vercel 
-Example: https://your-frontend.vercel.app (your-frontend.vercel.app in Bing)
+Example: https://job-listing-ui-fawn.vercel.app/ (your-frontend.vercel.app in Bing)
 
 
 
