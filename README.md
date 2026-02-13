@@ -1,16 +1,53 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Job Listing UI
 
-Currently, two official plugins are available:
+A responsive job board interface built with React and Tailwind CSS.  
+This project demonstrates JavaScript fundamentals, state management, filtering logic, and clean UI/UX design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ✨ Features
+- Display job cards with title, company, location, and type
+- Search by job title with keyword highlighting
+- Filter by location (Remote / On-site)
+- Filter by job type (Internship / Full-time)
+- Sort alphabetically by job title
+- Responsive layout (mobile → single column, desktop → grid)
 
-## React Compiler
+ 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ 1. Clone the repository
+```bash
+git clone https://github.com/Dhivyabj/job-listing-ui.git
+cd job-listing-ui
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install Dependencies
+
+npm install
+
+
+3. Run the development server
+npm run dev
+
+
+Open http://localhost:5173 (localhost in Bing) (or the port shown in your terminal) to view the app in your browser.
+
+📂 Project Structure
+
+src/
+ ├── components/
+ │    └── JobCard.jsx
+ ├── data/
+ │    └── jobs.js
+ ├── App.jsx
+ └── main.jsx
+
+- App.jsx → Handles state, filtering, sorting, and layout
+- JobCard.jsx → Displays individual job cards and highlights search keywords
+- jobs.js → Contains sample job data
+
+🌐 Deployment
+This project can be deployed easily on Vercel 
+Example: https://your-frontend.vercel.app (your-frontend.vercel.app in Bing)
+
+
+
